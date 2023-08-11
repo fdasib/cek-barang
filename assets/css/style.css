@@ -62,20 +62,4 @@ table td:nth-child(3) {
 #tidak-ditemukan {
   text-align: center;
   font-style: italic;
-}
-
-@media (max-width: 800px) {
-  #judul {
-    font-size: 4em;
-  }
-  .search i {
-    font-size: 2.5em;
-  }
-  #cari {
-    font-size: 2em;
-    padding-left: 70px;
-  }
-  #barang {
-    font-size: 2em;
-  }
 }/*# sourceMappingURL=style.css.map */
