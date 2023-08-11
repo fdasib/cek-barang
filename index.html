@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Harga</title>
+    <link rel="stylesheet" href="assets/pluings/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="judul">Daftar Harga</h1>
+
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" id="cari" placeholder="Cari...">
+        </div>
+
+        <div class="tabel">
+            <table border="1" id="barang">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Barang</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="display: none;">
+                        <td colspan="3" id="tidak-ditemukan">Maaf tidak ditemukan</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Amplop Besar</td>
+                        <td>500 dapat 2</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Amplop Kecil</td>
+                        <td>500 dapat 3</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Bio + Liquid</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Bodrexin</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Ciptadent</td>
+                        <td>4500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Citrit</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Coffemix</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Daia Sabun Cuci</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Desaku Ketumbar Bubuk</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Desaku Marinasi</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Downy</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Ekonimi</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Garam</td>
+                        <td>2500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Gas</td>
+                        <td>20000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Giv</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Gula Pasir 1/2 Kg</td>
+                        <td>7000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Gula Pasir 1 Kg</td>
+                        <td>14000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Kapal Api Kecil</td>
+                        <td>800 & 1500 dapat 2</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Kapur Barus</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Kara</td>
+                        <td>3500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Kecap Bango</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Kecap Lele</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Kertas Minyak</td>
+                        <td>2000 dapat 10</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Kispray</td>
+                        <td>2000 dapat 3</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Kit Poles</td>
+                        <td>2500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Komix</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Korek Gas</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Korek Jres</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Koyo Hansaplast</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Ladaku Merica Bubuk</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Lifebouy Sabun Mandi</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Lifebouy Shampoo & Zinc</td>
+                        <td>1000 dapat 3</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Lilin</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Mazzoni Balado</td>
+                        <td>5500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Mie Godog / Rebus</td>
+                        <td>3500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Mie Goreng Sedap</td>
+                        <td>3500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Minyak Botol</td>
+                        <td>10000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Minyak Gelas</td>
+                        <td>5000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Moto</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Nuvo</td>
+                        <td>3500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Obat Nyamuk</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Pantene & Head And Shoulder</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Plastik Es</td>
+                        <td>7000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Promag</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Rafia</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Rinso</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Royco</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Saos</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Sariwangi</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Sasa Tepung Bumbu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Sayang Sabun Cuci</td>
+                        <td>5000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Sikat Gigi</td>
+                        <td>3000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>So Klin Jumbo</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>So Klin Lantai</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Soffel</td>
+                        <td>1500 dapat 2</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Softex Daun Sirih</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Sunlight</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Susu</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Tambal Panci</td>
+                        <td>1000 dapat 3</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Teh Nyapu & Teh Sintren</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Tolak Angin</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Wings</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Zen</td>
+                        <td>3500</td>
+                    </tr>
+                    <tr>
+                        <td class="nomor"></td>
+                        <td>Zinzui</td>
+                        <td>4000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="assets/js/script.min.js"></script>
+</body>
+</html>
