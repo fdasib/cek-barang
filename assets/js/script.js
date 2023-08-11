@@ -8,7 +8,6 @@ nomor.forEach((e, i) => {
 let cari = document.getElementById("cari");
 let barang = document.querySelectorAll("#barang tr td");
 cari.addEventListener("input", function() {
-    // console.log(barang[0].parentNode.parentNode.textContent.toLowerCase().indexOf(cari.value.toLowerCase()) < 0);
     barang.forEach(e => {
         if(e.parentNode.textContent.toLowerCase().indexOf(cari.value.toLowerCase()) > -1){
             document.querySelector("#tidak-ditemukan").parentNode.style.display = "none";
